@@ -31,7 +31,7 @@ The second step is to setup StereoPiv1 with OpenCV, ROS and MAVROS to control th
 
 3. Actuonix Servo Control
 
-The third step is to setup the [Actuonix Servo](https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm) with StereoPi. In order to control the motor, attach the signal wire to PWM output pin of an Arduino or Teensy. Control the servo by sending the PWM signal (using the standard [<Servo.h>](https://www.arduino.cc/reference/en/libraries/servo/write/) arduino library) from the microcontroller which takes serial input from StereoPi. Use [Pyserial](https://pyserial.readthedocs.io/en/latest/shortintro.html) to send command to the StereoPi. You should now be able to control the servo motors via StereoPi in python.
+The third step is to setup the [Actuonix Servo](https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm) with StereoPi. In order to control the motor, attach the signal wire to PWM output pin of an Arduino or Teensy. Control the servo by sending the PWM signal (using the standard [<Servo.h>](https://www.arduino.cc/reference/en/libraries/servo/write/) arduino library) from the microcontroller which takes serial input from StereoPi. Use [Pyserial](https://pyserial.readthedocs.io/en/latest/shortintro.html) to send command from the StereoPi to the microcontroller. You should now be able to control the servo motors via StereoPi in python.
 
 
 ## License:
