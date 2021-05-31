@@ -35,4 +35,4 @@ The third step is to setup the [Actuonix Servo](https://www.actuonix.com/L12-R-L
 
 
 ## License:
-Copyright (c) 2020 Perception and Robotics Group (PRG)
+Copyright (c) 2021 Perception and Robotics Group (PRG)
