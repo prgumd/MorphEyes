@@ -19,5 +19,20 @@ Morphable design and depth-based visual control are two upcoming trends leading 
 - [arXiv Preprint](https://arxiv.org/abs/2011.03077)
 
 
+### Supplementary Hardware Tutorial
+
+1. Setting up the quadrotor to hover using on-board computation and sensing 
+
+The first step involves building a quadrotor called PRGCorgi210$$\alpha$$ which is a 210mm sized quadrotor based on Ardupilot. Please refer to the step by step instructions [here](https://github.com/prgumd/PRGFlyt/wiki/PRGCorgi). 
+
+2. Setting up the StereoPiv1
+
+The second step is to setup StereoPiv1 with OpenCV, ROS and MAVROS to control the quadrotor. Start by installing the Raspbian buster image with openCV from [here](https://drive.google.com/file/d/1xlkvZMl9gJGm4Gy1oVlGknHywDnvy5gS/view?usp=sharing). More instructions can be found [here](https://wiki.stereopi.com/index.php?title=Main_Page). Then compile and install ROS from source following instructions [here](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi). Finally install MAVROS along with its dependency packages from [here](https://github.com/mavlink/mavros)
+
+3. [Actuonix Servo Control]
+
+
+
+
 ## License:
 Copyright (c) 2020 Perception and Robotics Group (PRG)
