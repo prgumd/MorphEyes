@@ -5,6 +5,7 @@ MorphEyes: Variable Baseline Stereo For Quadrotor Navigation
 **MorphEyes** by <a href="http://prg.cs.umd.edu"><i>Perception & Robotics Group</i></a> at the Department of Computer Science, <a href="https://umd.edu/">University of Maryland- College Park</a>.
 
 ![MorphEyes: Variable Baseline Stereo For Quadrotor Navigation](http://prg.cs.umd.edu/research/MorphEyes_files/Banner.png)
+(a) Flying through a forest, (b) flying through a dynamic gap, (c) detecting an independently moving object, and (d) our quadrotor with different baselines from 100 mm to 300 mm.
 
 ### Abstract
 
